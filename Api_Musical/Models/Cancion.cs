@@ -2,15 +2,10 @@
 {
     public class Cancion
     {
-        public int id { get; set; }
-        public string titulo { get; set; }
-        public string preview { get; set; }
-        public int duracion { get; set; }
-
-        public String getTittle()
-        {
-            return titulo;
-        }
+        public long id { get; set; }
+        public string? title { get; set; }
+        public string? preview { get; set; }
+        public int duration { get; set; }
 
     }
 }

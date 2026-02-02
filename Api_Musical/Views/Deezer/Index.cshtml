@@ -1,0 +1,31 @@
+﻿@using Api_Musical.Models
+@model List<Cancion>
+
+<h1>Cancion</h1>
+
+<form asp-action="Index" method="get">
+    <input type="text" name="busqueda" placeholder="¿Qué quieres escuchar?" />
+    <button type="submit">Buscar</button>
+</form>
+
+<hr />
+
+@if (Model != null && Model.Count > 0)
+{
+    <ul>
+        @foreach (var cancion in Model)
+        {
+            <li>
+                <strong>@cancion.title</strong> <br /><br />
+                <audio controls>
+                    <source src="@cancion.preview" type="audio/mpeg">
+                </audio>
+            </li>
+            <hr />
+        }
+    </ul>
+}
+else
+{
+    <p>No hay resultados (o no se ha buscado nada aún).</p>
+}
