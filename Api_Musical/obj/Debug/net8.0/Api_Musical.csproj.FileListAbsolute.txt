@@ -33,3 +33,38 @@ D:\ds3\AppMoviles\Curso\Api_Musical\Api_Musical\obj\Debug\net8.0\refint\Api_Musi
 D:\ds3\AppMoviles\Curso\Api_Musical\Api_Musical\obj\Debug\net8.0\Api_Musical.pdb
 D:\ds3\AppMoviles\Curso\Api_Musical\Api_Musical\obj\Debug\net8.0\Api_Musical.genruntimeconfig.cache
 D:\ds3\AppMoviles\Curso\Api_Musical\Api_Musical\obj\Debug\net8.0\ref\Api_Musical.dll
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\bin\Debug\net8.0\appsettings.json
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\bin\Debug\net8.0\Api_Musical.staticwebassets.runtime.json
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\bin\Debug\net8.0\Api_Musical.staticwebassets.endpoints.json
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\bin\Debug\net8.0\Api_Musical.exe
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\bin\Debug\net8.0\Api_Musical.deps.json
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\bin\Debug\net8.0\Api_Musical.runtimeconfig.json
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\bin\Debug\net8.0\Api_Musical.dll
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\bin\Debug\net8.0\Api_Musical.pdb
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\Api_Musical.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\Api_Musical.AssemblyInfoInputs.cache
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\Api_Musical.AssemblyInfo.cs
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\Api_Musical.csproj.CoreCompileInputs.cache
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\Api_Musical.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\Api_Musical.RazorAssemblyInfo.cache
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\Api_Musical.RazorAssemblyInfo.cs
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\Api_Musical.sourcelink.json
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\scopedcss\bundle\Api_Musical.styles.css
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\scopedcss\projectbundle\Api_Musical.bundle.scp.css
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\Api_Musical.dll
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\refint\Api_Musical.dll
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\Api_Musical.pdb
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\Api_Musical.genruntimeconfig.cache
+C:\Users\usuario 4\Desktop\gael\Api_Musical\Api_Musical\obj\Debug\net8.0\ref\Api_Musical.dll

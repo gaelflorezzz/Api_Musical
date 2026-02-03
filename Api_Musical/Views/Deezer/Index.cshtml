@@ -16,10 +16,20 @@
         @foreach (var cancion in Model)
         {
             <li>
-                <strong>@cancion.title</strong> <br /><br />
-                <audio controls>
-                    <source src="@cancion.preview" type="audio/mpeg">
-                </audio>
+                <div>
+                    
+                    <img src="@cancion.album.cover_medium" alt="Portada">
+
+                    <div>
+                        <strong>Disco: @cancion.album.title</strong> <br />
+                        
+                        <strong>Canción:</strong> @cancion.title <br />
+
+                        <audio controls>
+                            <source src="@cancion.preview" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
             </li>
             <hr />
         }
