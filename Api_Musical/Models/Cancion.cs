@@ -6,6 +6,8 @@
         public string? title { get; set; }
         public string? preview { get; set; }
         public int duration { get; set; }
+
+        public int charts { get; set; }
         public Album? album { get; set; }
     }
 }

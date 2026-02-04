@@ -15,11 +15,18 @@ namespace Api_Musical.Controllers
 
         public async Task<IActionResult> Index(string busqueda)
         {
-            if (string.IsNullOrEmpty(busqueda))
-                return View(new List<Cancion>());
+            List<Cancion> canciones;
 
-            var cancion = await _deezerService.GetCancion(busqueda);
-            return View(cancion);
+            if (!string.IsNullOrEmpty(busqueda))
+            {
+                canciones = await _deezerService.GetCancion(busqueda);    
+            }
+            else
+            {
+                canciones = await _deezerService.GetTopGlobales();
+            }
+
+            return View(canciones);
         }
     }
 }

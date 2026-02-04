@@ -30,5 +30,24 @@ namespace Api_Musical.Services
 
             return data?.Data ?? new List<Cancion>();
         }
+
+        public async Task<List<Cancion>> GetTopGlobales()
+        {
+            var url = "chart";
+            var response = await _httpClient.GetAsync(url);
+
+            response.EnsureSuccessStatusCode();
+
+            var json = await response.Content.ReadAsStringAsync();
+
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+
+            var data = JsonSerializer.Deserialize<DeezerResponse>(json, options);
+
+            return data.tracks.Data ?? new List<Cancion>();
+        }
     }
 }

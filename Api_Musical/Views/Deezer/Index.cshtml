@@ -1,41 +1,62 @@
 ﻿@using Api_Musical.Models
 @model List<Cancion>
 
-<h1>Cancion</h1>
+<link rel="stylesheet" href="~/css/deezer.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 
-<form asp-action="Index" method="get">
-    <input type="text" name="busqueda" placeholder="¿Qué quieres escuchar?" />
-    <button type="submit">Buscar</button>
-</form>
+<body id="deezer-app">
 
-<hr />
+    <main class="main-container">
 
-@if (Model != null && Model.Count > 0)
-{
-    <ul>
-        @foreach (var cancion in Model)
+        <h1 class="app-title">Deezer</h1>
+
+        <form asp-action="Index" method="get" class="search-form">
+            <input type="text"
+                   name="busqueda"
+                   class="search-input"
+                   placeholder="¿Qué quieres escuchar?"
+                   autocomplete="off" />
+
+            <button type="submit" class="search-btn">Buscar</button>
+        </form>
+
+        <hr class="divider" />
+
+        @if (Model != null && Model.Count > 0)
         {
-            <li>
-                <div>
-                    
-                    <img src="@cancion.album.cover_medium" alt="Portada">
+            <ul class="results-grid">
+                @foreach (var cancion in Model)
+                {
+                    <li class="song-card">
+                        <div class="card-layout">
 
-                    <div>
-                        <strong>Disco: @cancion.album.title</strong> <br />
-                        
-                        <strong>Canción:</strong> @cancion.title <br />
+                            <img src="@cancion.album.cover_medium" alt="Portada" class="album-cover">
 
-                        <audio controls>
-                            <source src="@cancion.preview" type="audio/mpeg">
-                        </audio>
-                    </div>
-                </div>
-            </li>
-            <hr />
+                            <div class="song-info">
+                                <div class="info-group">
+                                    <span class="label">Disco:</span>
+                                    <span class="value album-name">@cancion.album.title</span>
+                                </div>
+
+                                <div class="info-group">
+                                    <span class="label">Canción:</span>
+                                    <span class="value song-title">@cancion.title</span>
+                                </div>
+
+                                <audio controls class="audio-player">
+                                    <source src="@cancion.preview" type="audio/mpeg">
+                                </audio>
+                            </div>
+                        </div>
+                    </li>
+                }
+            </ul>
         }
-    </ul>
-}
-else
-{
-    <p>No hay resultados (o no se ha buscado nada aún).</p>
-}
+        else
+        {
+            <h1 class="status-message">Top Globales en Deezer</h1>
+        }
+    </main>
+</body>

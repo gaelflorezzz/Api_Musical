@@ -1,2 +1,42 @@
 ﻿body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+}
+
+.search-form {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 30px 0;
+
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.search-form:hover{
+    transform: scale(1.02);
+}
+
+.search-input{
+    padding: 10px 15px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+.search-btn {
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #ef5466;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+h1, .app-title, .status-message{
+    font-weight_ 800;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
 }

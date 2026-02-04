@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\ds3\\AppMoviles\\Curso\\Api_Musical\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C273BA72-AA8D-C27D-D09F-0FF4C8CB77D5}|Api_Musical\\Api_Musical.csproj|d:\\ds3\\appmoviles\\curso\\api_musical\\api_musical\\wwwroot\\css\\deezer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C273BA72-AA8D-C27D-D09F-0FF4C8CB77D5}|Api_Musical\\Api_Musical.csproj|solutionrelative:api_musical\\wwwroot\\css\\deezer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C273BA72-AA8D-C27D-D09F-0FF4C8CB77D5}|Api_Musical\\Api_Musical.csproj|d:\\ds3\\appmoviles\\curso\\api_musical\\api_musical\\views\\deezer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C273BA72-AA8D-C27D-D09F-0FF4C8CB77D5}|Api_Musical\\Api_Musical.csproj|solutionrelative:api_musical\\views\\deezer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,20 +19,20 @@
       "RelativeMoniker": "D:0:0:{C273BA72-AA8D-C27D-D09F-0FF4C8CB77D5}|Api_Musical\\Api_Musical.csproj|solutionrelative:api_musical\\services\\deezerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C273BA72-AA8D-C27D-D09F-0FF4C8CB77D5}|Api_Musical\\Api_Musical.csproj|d:\\ds3\\appmoviles\\curso\\api_musical\\api_musical\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C273BA72-AA8D-C27D-D09F-0FF4C8CB77D5}|Api_Musical\\Api_Musical.csproj|solutionrelative:api_musical\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C273BA72-AA8D-C27D-D09F-0FF4C8CB77D5}|Api_Musical\\Api_Musical.csproj|d:\\ds3\\appmoviles\\curso\\api_musical\\api_musical\\models\\deezerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C273BA72-AA8D-C27D-D09F-0FF4C8CB77D5}|Api_Musical\\Api_Musical.csproj|solutionrelative:api_musical\\models\\deezerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C273BA72-AA8D-C27D-D09F-0FF4C8CB77D5}|Api_Musical\\Api_Musical.csproj|d:\\ds3\\appmoviles\\curso\\api_musical\\api_musical\\models\\cancion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C273BA72-AA8D-C27D-D09F-0FF4C8CB77D5}|Api_Musical\\Api_Musical.csproj|solutionrelative:api_musical\\models\\cancion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C273BA72-AA8D-C27D-D09F-0FF4C8CB77D5}|Api_Musical\\Api_Musical.csproj|d:\\ds3\\appmoviles\\curso\\api_musical\\api_musical\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C273BA72-AA8D-C27D-D09F-0FF4C8CB77D5}|Api_Musical\\Api_Musical.csproj|solutionrelative:api_musical\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C273BA72-AA8D-C27D-D09F-0FF4C8CB77D5}|Api_Musical\\Api_Musical.csproj|d:\\ds3\\appmoviles\\curso\\api_musical\\api_musical\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C273BA72-AA8D-C27D-D09F-0FF4C8CB77D5}|Api_Musical\\Api_Musical.csproj|solutionrelative:api_musical\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C273BA72-AA8D-C27D-D09F-0FF4C8CB77D5}|Api_Musical\\Api_Musical.csproj|d:\\ds3\\appmoviles\\curso\\api_musical\\api_musical\\models\\deezerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C273BA72-AA8D-C27D-D09F-0FF4C8CB77D5}|Api_Musical\\Api_Musical.csproj|solutionrelative:api_musical\\models\\deezerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C273BA72-AA8D-C27D-D09F-0FF4C8CB77D5}|Api_Musical\\Api_Musical.csproj|d:\\ds3\\appmoviles\\curso\\api_musical\\api_musical\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C273BA72-AA8D-C27D-D09F-0FF4C8CB77D5}|Api_Musical\\Api_Musical.csproj|solutionrelative:api_musical\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,45 +59,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "deezer.css",
+              "DocumentMoniker": "D:\\ds3\\AppMoviles\\Curso\\Api_Musical\\Api_Musical\\wwwroot\\css\\deezer.css",
+              "RelativeDocumentMoniker": "Api_Musical\\wwwroot\\css\\deezer.css",
+              "ToolTip": "D:\\ds3\\AppMoviles\\Curso\\Api_Musical\\Api_Musical\\wwwroot\\css\\deezer.css",
+              "RelativeToolTip": "Api_Musical\\wwwroot\\css\\deezer.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-04T01:46:12.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\ds3\\AppMoviles\\Curso\\Api_Musical\\Api_Musical\\Views\\Deezer\\Index.cshtml",
               "RelativeDocumentMoniker": "Api_Musical\\Views\\Deezer\\Index.cshtml",
               "ToolTip": "D:\\ds3\\AppMoviles\\Curso\\Api_Musical\\Api_Musical\\Views\\Deezer\\Index.cshtml",
               "RelativeToolTip": "Api_Musical\\Views\\Deezer\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-02T20:32:52.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DeezerController.cs",
               "DocumentMoniker": "D:\\ds3\\AppMoviles\\Curso\\Api_Musical\\Api_Musical\\Controllers\\DeezerController.cs",
               "RelativeDocumentMoniker": "Api_Musical\\Controllers\\DeezerController.cs",
               "ToolTip": "D:\\ds3\\AppMoviles\\Curso\\Api_Musical\\Api_Musical\\Controllers\\DeezerController.cs",
               "RelativeToolTip": "Api_Musical\\Controllers\\DeezerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T20:20:51.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DeezerService.cs",
               "DocumentMoniker": "D:\\ds3\\AppMoviles\\Curso\\Api_Musical\\Api_Musical\\Services\\DeezerService.cs",
               "RelativeDocumentMoniker": "Api_Musical\\Services\\DeezerService.cs",
               "ToolTip": "D:\\ds3\\AppMoviles\\Curso\\Api_Musical\\Api_Musical\\Services\\DeezerService.cs",
               "RelativeToolTip": "Api_Musical\\Services\\DeezerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwDEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T19:34:49.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ds3\\AppMoviles\\Curso\\Api_Musical\\Api_Musical\\Program.cs",
               "RelativeDocumentMoniker": "Api_Musical\\Program.cs",
@@ -101,25 +118,24 @@
               "RelativeToolTip": "Api_Musical\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T19:27:25.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T19:27:25.733Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "DeezerResponse.cs",
               "DocumentMoniker": "D:\\ds3\\AppMoviles\\Curso\\Api_Musical\\Api_Musical\\Models\\DeezerResponse.cs",
               "RelativeDocumentMoniker": "Api_Musical\\Models\\DeezerResponse.cs",
               "ToolTip": "D:\\ds3\\AppMoviles\\Curso\\Api_Musical\\Api_Musical\\Models\\DeezerResponse.cs",
               "RelativeToolTip": "Api_Musical\\Models\\DeezerResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T19:22:12.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\ds3\\AppMoviles\\Curso\\Api_Musical\\Api_Musical\\appsettings.json",
               "RelativeDocumentMoniker": "Api_Musical\\appsettings.json",
@@ -127,18 +143,17 @@
               "RelativeToolTip": "Api_Musical\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-30T20:55:40.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-30T20:55:40.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Cancion.cs",
               "DocumentMoniker": "D:\\ds3\\AppMoviles\\Curso\\Api_Musical\\Api_Musical\\Models\\Cancion.cs",
               "RelativeDocumentMoniker": "Api_Musical\\Models\\Cancion.cs",
               "ToolTip": "D:\\ds3\\AppMoviles\\Curso\\Api_Musical\\Api_Musical\\Models\\Cancion.cs",
               "RelativeToolTip": "Api_Musical\\Models\\Cancion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-30T20:54:23.955Z",
               "EditorCaption": ""
