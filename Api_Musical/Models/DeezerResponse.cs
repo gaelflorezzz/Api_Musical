@@ -1,9 +1,7 @@
 ﻿namespace Api_Musical.Models
 {
-    public class DeezerResponse
+    public class DeezerResponse<T>
     {
-        public List<Cancion>? Data { get; set; }
-
-        public DeezerResponse? tracks { get; set; }
+        public List<T>? data { get; set; }
     }
 }

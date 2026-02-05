@@ -22,13 +22,13 @@ namespace Api_Musical.Services
 
             var json = await response.Content.ReadAsStringAsync();
 
-            var data = JsonSerializer.Deserialize<DeezerResponse>(json,
+            var data = JsonSerializer.Deserialize<DeezerResponse<Cancion>>(json,
                 new JsonSerializerOptions
                 {
                     PropertyNameCaseInsensitive = true
                 });
 
-            return data?.Data ?? new List<Cancion>();
+            return data?.data ?? new List<Cancion>();
         }
 
         public async Task<List<Cancion>> GetTopGlobales()
@@ -45,9 +45,27 @@ namespace Api_Musical.Services
                 PropertyNameCaseInsensitive = true
             };
 
-            var data = JsonSerializer.Deserialize<DeezerResponse>(json, options);
+            var chartData = JsonSerializer.Deserialize<ChartResponse>(json, options);
 
-            return data.tracks.Data ?? new List<Cancion>();
+            return chartData?.tracks?.data ?? new List<Cancion>();
+        }
+
+        public async Task<List<Artista>> GetArtista(string nombreArtista)
+        {
+            var url = $"search/artist?q={Uri.EscapeDataString(nombreArtista)}";
+            var response = await _httpClient.GetAsync(url);
+
+            response.EnsureSuccessStatusCode();
+
+            var json = await response.Content.ReadAsStringAsync();
+
+            var data = JsonSerializer.Deserialize<DeezerResponse<Artista>>(json,
+                new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+
+            return data?.data ?? new List<Artista>();
         }
     }
 }

@@ -28,5 +28,16 @@ namespace Api_Musical.Controllers
 
             return View(canciones);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> ObtenerArtista(string nombre)
+        {
+            if (string.IsNullOrWhiteSpace(nombre))
+                return RedirectToAction("Index");
+
+            var listaArtistas = await _deezerService.GetArtista(nombre);
+
+            return View("Artistas", listaArtistas);
+        }
     }
 }

@@ -9,5 +9,6 @@
 
         public int charts { get; set; }
         public Album? album { get; set; }
+        public Artista? artist { get; set; }
     }
 }

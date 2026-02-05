@@ -1,7 +1,7 @@
 ﻿@using Api_Musical.Models
 @model List<Cancion>
 
-<link rel="stylesheet" href="~/css/deezer.css" />
+<link rel="stylesheet" href="~/css/deezer.css" asp-append-version="true" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -10,45 +10,54 @@
 
     <main class="main-container">
 
-        <h1 class="app-title">Deezer</h1>
+         
+        <div class="buscador">
+            <form asp-action="Index" method="get" class="search-form">
+                <div class="acciones-buscador">
+                    <input type="text"
+                           name="busqueda"
+                           class="search-input"
+                           placeholder="¿Qué quieres reproducir?"
+                           autocomplete="off" />
 
-        <form asp-action="Index" method="get" class="search-form">
-            <input type="text"
-                   name="busqueda"
-                   class="search-input"
-                   placeholder="¿Qué quieres escuchar?"
-                   autocomplete="off" />
-
-            <button type="submit" class="search-btn">Buscar</button>
-        </form>
+                    <button type="submit" class="search-btn">Buscar</button>
+                </div>
+                
+            </form>
+        </div>
 
         <hr class="divider" />
 
+        <h1 class="app-title">Lo popular en México </h1>
+         
         @if (Model != null && Model.Count > 0)
         {
             <ul class="results-grid">
                 @foreach (var cancion in Model)
                 {
-                    <li class="song-card">
+                    <li class="songs-card">
                         <div class="card-layout">
 
-                            <img src="@cancion.album.cover_medium" alt="Portada" class="album-cover">
+                            <img src="@cancion.album.cover_medium"
+                                 alt="Álbum @cancion.album.title"
+                                 class="album-cover">
 
                             <div class="song-info">
+                                <h4 class="song-title">@cancion.title</h4>
+
+                                <p class="artist-name">@cancion.artist.name</p>
+
                                 <div class="info-group">
                                     <span class="label">Disco:</span>
                                     <span class="value album-name">@cancion.album.title</span>
                                 </div>
 
-                                <div class="info-group">
-                                    <span class="label">Canción:</span>
-                                    <span class="value song-title">@cancion.title</span>
-                                </div>
-
                                 <audio controls class="audio-player">
                                     <source src="@cancion.preview" type="audio/mpeg">
+                                    Tu navegador no soporta audio.
                                 </audio>
                             </div>
+
                         </div>
                     </li>
                 }
