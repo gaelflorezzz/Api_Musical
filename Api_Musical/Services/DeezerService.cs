@@ -31,7 +31,7 @@ namespace Api_Musical.Services
             return data?.data ?? new List<Cancion>();
         }
 
-        public async Task<List<Cancion>> GetTopGlobales()
+        public async Task<List<Cancion>> GetTopMexico()
         {
             var url = "chart";
             var response = await _httpClient.GetAsync(url);

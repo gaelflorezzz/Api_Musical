@@ -23,7 +23,7 @@ namespace Api_Musical.Controllers
             }
             else
             {
-                canciones = await _deezerService.GetTopGlobales();
+                canciones = await _deezerService.GetTopMexico();
             }
 
             return View(canciones);
